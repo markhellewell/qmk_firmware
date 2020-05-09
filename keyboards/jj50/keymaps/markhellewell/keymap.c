@@ -21,8 +21,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 									   KC_GRV, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_NO,
 									   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_DEL,
 									   RESET, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_BSLS,
-									   KC_LSFT, KC_MUTE, KC_APP, KC_MINS, KC_EQL, KC_LBRC, KC_RBRC, KC_MPLY, KC_VOLU, KC_VOLD, KC_PSCR, KC_SFTENT,
-									   KC_LCTL, KC_LGUI, KC_LALT, KC_NO, KC_NO, KC_SPC, KC_SPC, KC_INS, KC_PGUP, KC_PGDN, KC_HOME, KC_END
+									   KC_LSFT, KC_MUTE, KC_APP, KC_MINS, KC_EQL, KC_LBRC, KC_RBRC, KC_MPLY, KC_PSCR, KC_VOLD, KC_VOLU, KC_SFTENT,
+									   KC_LCTL, KC_LGUI, KC_LALT, KC_NO, KC_NO, KC_SPC, KC_SPC, KC_INS, KC_HOME, KC_PGDN, KC_PGUP, KC_END
 									   ),
                                                               [2] = LAYOUT(
 									   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
