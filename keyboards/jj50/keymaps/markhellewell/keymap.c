@@ -1,13 +1,5 @@
 #include QMK_KEYBOARD_H
 
-#ifdef RGBLIGHT_ENABLE
-void keyboard_post_init_user(void) {
-  rgblight_enable_noeeprom(); // Enables RGB, without saving settings
-  rgblight_sethsv_noeeprom(HSV_WHITE);
-  rgblight_mode_noeeprom(RGBLIGHT_MODE_STATIC_LIGHT);
-}
-#endif
-
 // Colemak
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 							      [0] = LAYOUT(
@@ -29,6 +21,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 									   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
 									   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
 									   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
-									   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, RGB_TOG, RGB_TOG, KC_NO, KC_NO, KC_NO, RGB_MODE_REVERSE, RGB_MODE_FORWARD
+									   KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, BL_STEP, BL_STEP, BL_BRTG, KC_NO, KC_NO, KC_NO, KC_NO
 									   )
 };
