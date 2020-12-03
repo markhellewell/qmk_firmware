@@ -36,6 +36,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                                            KC_LSFT, KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, KC_SFTENT,
                                                                            KC_LCTL, KC_LCMD, KC_LALT, KC_RCTL, MO(_LOWER), KC_SPC, MO(_RAISE), KC_LEFT, KC_DOWN, KC_UP, KC_RGHT
                                                                            ),
+							      // lower
                                                               [1] = LAYOUT(
                                                                            KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
                                                                            KC_NO, KC_NO, KC_NO, KC_NO, DYN_REC_START1, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
@@ -43,9 +44,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                                                            KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, DYN_REC_STOP, KC_NO, DYN_MACRO_PLAY1,
                                                                            KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,     KC_NO,    KC_NO, KC_NO, KC_NO, KC_NO, KC_NO
                                                                            ),
+							      // raise
                                                               [2] = LAYOUT(
-                                                                           KC_GRV, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_EQL,
-                                                                           KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_DEL,
+                                                                           KC_NO, KC_F1, KC_F2, KC_F3, KC_F4, KC_F5, KC_F6, KC_F7, KC_F8, KC_F9, KC_F10, KC_DEL,
+                                                                           KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_EQL,
                                                                            RESET, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_BSLS,
                                                                            KC_LSFT, KC_MUTE, KC_APP, KC_MINS, KC_EQL, KC_LBRC, KC_RBRC, KC_MPLY, KC_PSCR, KC_VOLD, KC_VOLU, KC_SFTENT,
                                                                            KC_LCTL, KC_LCMD, KC_LALT, KC_NO, KC_NO, KC_SPC, KC_INS, KC_HOME, KC_PGDN, KC_PGUP, KC_END
